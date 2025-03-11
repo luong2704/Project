@@ -24,7 +24,7 @@ namespace Notes.Data.Repository
             Init().GetAwaiter().GetResult();
         }
 
-        bool INoteRepository.Delete(string filename, string data)
+        public bool Delete(string filename, string data)
         {
             var item = new NoteDataModel
             {
@@ -35,7 +35,7 @@ namespace Notes.Data.Repository
             return true;
         }
 
-        bool INoteRepository.Write(string name, string data)
+        public bool Write(string name, string data)
         {
             var item = new NoteDataModel
             {
@@ -46,17 +46,17 @@ namespace Notes.Data.Repository
             return true;
         }
 
-        NoteDataModel INoteRepository.ReadItem(string filename)
+        public NoteDataModel ReadItem(string filename)
         {
             return Database.Table<NoteDataModel>().FirstOrDefaultAsync(x => x.Name == filename).GetAwaiter().GetResult();
         }
 
-        List<NoteDataModel> INoteRepository.ReadItems(string filename)
+        public List<NoteDataModel> ReadItems(string filename)
         {
             return Database.Table<NoteDataModel>().ToListAsync().GetAwaiter().GetResult();
         }
 
-        NoteDataModel INoteRepository.Update(int id, string filename, string data)
+        public NoteDataModel Update(int id, string filename, string data)
         {
             var item = new NoteDataModel
             {
@@ -68,7 +68,7 @@ namespace Notes.Data.Repository
             return item;
         }
 
-        NoteDataModel INoteRepository.UpdateName(string oldname, string name)
+        public NoteDataModel UpdateName(string oldname, string name)
         {
             var olditem = ((INoteRepository)this).ReadItem(oldname);
             olditem.Name = name;
