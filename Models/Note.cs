@@ -1,18 +1,33 @@
 ﻿namespace Notes.Models;
+use Notes.Data.Repository;
 
 internal class Note
 {
     public string Filename { get; set; }
     public string Text { get; set; }
     public DateTime Date { get; set; }
+    private INoteRepository _noteRepository;
     public Note()
     {
         Filename = $"{Path.GetRandomFileName()}.notes.txt";
         Date = DateTime.Now;
         Text = "";
+        _noteRepository = new NoteRepository();
     }
     public void Save() =>
 File.WriteAllText(System.IO.Path.Combine(FileSystem.AppDataDirectory, Filename), Text);
+    public void Save()
+    {
+        var item = _noteRepository.ReadItem(Filename);
+        if (item != null)
+        {
+            _noteRepository.Save(item);
+        }
+        else
+        {
+            _noteRepository.Update(item.id, Filename, text);
+        }
+    }
 
     public void Delete() =>
         File.Delete(System.IO.Path.Combine(FileSystem.AppDataDirectory, Filename));
