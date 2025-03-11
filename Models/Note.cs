@@ -86,12 +86,12 @@ internal class Note
     //}
     public static IEnumerable<Note> LoadAll()
     {
-        var items = new NoteRepository().ReadItems("");
+        var items = new NoteRepository().ReadItems("TodoSQLite.db3");
         return items.Select(item => new Note
         {
             Filename = item.Name,
             Text = item.Data,
             Date = item.Date
-        });
+        }).OrderByDescending(note => note.Date);
     }
 }
