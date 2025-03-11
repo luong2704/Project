@@ -17,6 +17,7 @@ namespace Notes.Data.Repository
                 return;
 
             Database = new SQLiteAsyncConnection(Constants.DatabasePath, Constants.Flags);
+            //Check if not exist
             var result = await Database.CreateTableAsync<NoteDataModel>();
         }
         public NoteRepository()
