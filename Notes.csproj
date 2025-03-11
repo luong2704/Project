@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>Notes</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ApplicationTitle>Notes</ApplicationTitle>
+		<ApplicationId>com.companyname.notes</ApplicationId>
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+		<WindowsPackageType>None</WindowsPackageType>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">15.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<AndroidSigningKeyStore>my-release-key.keystore</AndroidSigningKeyStore>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-android|AnyCPU'">
+		<AndroidKeyStore>True</AndroidKeyStore>
+		<AndroidSigningStorePass>Hieu@1</AndroidSigningStorePass>
+		<AndroidSigningKeyAlias>HieuNguyen</AndroidSigningKeyAlias>
+		<AndroidSigningKeyPass>Hieu@1</AndroidSigningKeyPass>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-android|AnyCPU'">
+		<AndroidKeyStore>True</AndroidKeyStore>
+		<AndroidSigningStorePass>Hieu@1</AndroidSigningStorePass>
+		<AndroidSigningKeyAlias>HieuNguyen</AndroidSigningKeyAlias>
+		<AndroidSigningKeyPass>Hieu@1</AndroidSigningKeyPass>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiImage Include="Resources\Images\*" />
+		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+		<MauiFont Include="Resources\Fonts\*" />
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+		<PackageReference Include="Microsoft.Graph" Version="4.0.0" />
+		<PackageReference Include="Microsoft.Graph.Auth" Version="1.0.0-preview.5" />
+		<PackageReference Include="Microsoft.Identity.Client" Version="4.36.1" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.22" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+		<PackageReference Include="System.Security.Principal.Windows" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<MauiXaml Update="Views\AboutPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\AllNotesPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\NotePage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+	</ItemGroup>
+</Project>
