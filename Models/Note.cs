@@ -1,5 +1,5 @@
 ﻿namespace Notes.Models;
-use Notes.Data.Repository;
+using Notes.Data.Repository;
 
 internal class Note
 {
