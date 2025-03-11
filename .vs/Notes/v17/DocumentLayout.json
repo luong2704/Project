@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Notes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|c:\\users\\admin\\source\\repos\\notes\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|c:\\users\\admin\\source\\repos\\notes\\data\\repository\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|solutionrelative:data\\repository\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|c:\\users\\admin\\source\\repos\\notes\\data\\helper\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|solutionrelative:data\\helper\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|c:\\users\\admin\\source\\repos\\notes\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68E3DE08-6E10-4413-B197-8EA54D85401A}|Notes.csproj|c:\\users\\admin\\source\\repos\\notes\\viewmodels\\notesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,26 +106,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NoteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Notes\\Data\\Repository\\NoteRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\NoteRepository.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Notes\\Data\\Repository\\NoteRepository.cs",
               "RelativeToolTip": "Data\\Repository\\NoteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAA3wBIAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T01:15:24.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "INoteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Notes\\Data\\Repository\\INoteRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\INoteRepository.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Notes\\Data\\Repository\\INoteRepository.cs",
               "RelativeToolTip": "Data\\Repository\\INoteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T01:09:40.187Z",
               "EditorCaption": ""
@@ -145,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NoteDataModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Notes\\Data\\Model\\NoteDataModel.cs",
               "RelativeDocumentMoniker": "Data\\Model\\NoteDataModel.cs",
@@ -158,26 +158,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Note.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Notes\\Models\\Note.cs",
               "RelativeDocumentMoniker": "Models\\Note.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Notes\\Models\\Note.cs",
               "RelativeToolTip": "Models\\Note.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowEIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T01:19:23.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Constants.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Notes\\Data\\Helper\\Constants.cs",
               "RelativeDocumentMoniker": "Data\\Helper\\Constants.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Notes\\Data\\Helper\\Constants.cs",
               "RelativeToolTip": "Data\\Helper\\Constants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T01:19:00.997Z",
               "EditorCaption": ""
@@ -192,7 +192,8 @@
               "RelativeToolTip": "Views\\AllNotesPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T02:18:11.31Z"
+              "WhenOpened": "2024-12-10T02:18:11.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -204,7 +205,8 @@
               "RelativeToolTip": "Views\\AllNotesPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T02:21:07.707Z"
+              "WhenOpened": "2024-12-10T02:21:07.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -216,7 +218,8 @@
               "RelativeToolTip": "Views\\NotePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T02:13:07.873Z"
+              "WhenOpened": "2024-12-10T02:13:07.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -228,7 +231,8 @@
               "RelativeToolTip": "Views\\NotePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T02:12:32.858Z"
+              "WhenOpened": "2024-12-10T02:12:32.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -240,7 +244,8 @@
               "RelativeToolTip": "ViewModels\\NoteViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T01:27:38.62Z"
+              "WhenOpened": "2025-02-18T01:27:38.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -252,7 +257,8 @@
               "RelativeToolTip": "Views\\AboutPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T02:40:20.051Z"
+              "WhenOpened": "2024-12-10T02:40:20.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -264,7 +270,8 @@
               "RelativeToolTip": "Views\\AboutPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T02:20:02.803Z"
+              "WhenOpened": "2024-12-10T02:20:02.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -276,7 +283,8 @@
               "RelativeToolTip": "ViewModels\\AboutViewModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T01:27:08.598Z"
+              "WhenOpened": "2025-02-18T01:27:08.598Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -288,7 +296,8 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T02:31:49.306Z"
+              "WhenOpened": "2024-12-10T02:31:49.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -298,9 +307,10 @@
               "RelativeDocumentMoniker": "Notes.csproj",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Notes\\Notes.csproj",
               "RelativeToolTip": "Notes.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBpwBcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAMBtwBcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T16:53:39.808Z"
+              "WhenOpened": "2025-01-08T16:53:39.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -312,7 +322,8 @@
               "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T03:17:07.987Z"
+              "WhenOpened": "2025-01-09T03:17:07.987Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -323,7 +334,8 @@
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Notes\\Notes.csproj",
               "RelativeToolTip": "Notes.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-09T03:18:05.205Z"
+              "WhenOpened": "2025-01-09T03:18:05.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -335,7 +347,8 @@
               "RelativeToolTip": "AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T02:32:11.338Z"
+              "WhenOpened": "2024-12-10T02:32:11.338Z",
+              "EditorCaption": ""
             }
           ]
         }

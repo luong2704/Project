@@ -963,3 +963,4 @@ C:\Users\Admin\source\repos\Notes\obj\Debug\net9.0-android\android\assets\x86_64
 C:\Users\Admin\source\repos\Notes\obj\Debug\net9.0-android\android\assets\x86_64\SQLitePCLRaw.core.dll
 C:\Users\Admin\source\repos\Notes\obj\Debug\net9.0-android\android\assets\x86_64\SQLitePCLRaw.lib.e_sqlite3.android.dll
 C:\Users\Admin\source\repos\Notes\obj\Debug\net9.0-android\android\assets\x86_64\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Admin\source\repos\Notes\obj\Debug\net9.0-android\Notes.sourcelink.json
